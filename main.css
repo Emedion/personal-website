@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    height: 100vh;
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#logo{
+    font-family: 'Hurricane', cursive;
+    font-size: 30px;
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+}
+
+.name{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#name{
+    float: left;
+}
+
+#hi{
+    float: left;
+    padding: 20px 5px;
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    font-family: "Signika", sans-seriff;
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+    border: none;
+    background-color: rgb(236, 224, 53);
+    border-radius: 15%;
+}
+
+button:hover{
+    background-color: rgb(127, 229, 255);
+}
+
+.services-wrapper{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 252, 226);
+    position: absolute;
+    top: 94%;
+}
+
+.services{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    margin: 15px;
+}
+
+.service{
+    margin-top: 100px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 30%;
+    border-radius: 15%;
+    background-color: rgb(236, 224, 53);
+    
+}
+
+.good{
+    margin-top: 40px;
+}
+
+.service-words{
+    grid-template-columns: 40%;
+    align-items: center;
+    color: rgb(59, 59, 59);
+}
+
+.block-services{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 150%;
+}
+
+.block-services div{
+    background-color: rgb(255, 252, 226);
+    margin: 30px;
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 15px rgba(116, 116, 116, 0.041) ;
+}
+
+.block-services div p{
+    text-align: center;
+    position: relative;
+    top: 30%;
+
+}
+
+footer{
+    position: relative;
+    top: 115%;
+    background-color: rgb(255, 252, 226);
+}
+
+.contact-me{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 100px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15%;
+    background-color: rgb(236, 224, 53);
+}
